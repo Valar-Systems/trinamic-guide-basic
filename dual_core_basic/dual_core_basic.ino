@@ -20,9 +20,12 @@
 #define RX_PIN 19
 #define TX_PIN 18
 
+// NOTE: Connect CLK16 pin to ground
+
 // ## Position
 // Change these values to set the maximum step position.
-int32_t move_to_step = 3200;  //Change this value to set the position to move to (Negative will reverse)
+// We will rotate the motor 5 revolutions
+int32_t move_to_step = 3200 * 5;  //Change this value to set the position to move to (Negative will reverse)
 
 // ## Speed
 // Sets the speed in microsteps per second.
