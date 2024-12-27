@@ -18,7 +18,7 @@
 #define STEP_PIN 15
 #define ENABLE_PIN 16
 #define RX_PIN 19
-#define TX_PIN 20
+#define TX_PIN 18
 
 // ## Position
 // Change these values to set the maximum step position.
